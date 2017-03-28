@@ -1,6 +1,6 @@
 {
   "name": "@mbamobi/http-plugins-ionic",
-  "version": "1.0.0-nightly.20170208T200704Z.c53ec60",
+  "version": "2.0.0",
   "description": "Plugins HTTP additionals to projects ionic",
   "main": "dist/umd/index.js",
   "typings": "dist/esm/index.d.ts",
@@ -33,14 +33,14 @@
     "CHANGELOG.md"
   ],
   "peerDependencies": {
-    "@angular/core": "^2.0.0",
-    "@angular/http": "^2.0.0",
-    "@mbamobi/http": "^1.0.0",
-    "ionic-angular": "^2.0.0-rc.1",
+    "@angular/core": "^2.4.8",
+    "@angular/http": "^2.4.8",
+    "@mbamobi/http": "^2.0.0",
+    "ionic-angular": "2.3.0",
     "@ionic-native/core": "3.1.0",
     "@ionic-native/network": "^3.3.1",
-    "rxjs": "5.0.0-beta.12",
-    "zone.js": "^0.6.21"
+    "rxjs": "5.0.1",
+    "zone.js": "0.7.2"
   },
   "repository": {
     "type": "git",
