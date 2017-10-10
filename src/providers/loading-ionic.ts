@@ -92,6 +92,10 @@ export class LoadingIonicPlugin extends PluginBase implements PreRequestPlugin, 
     return this;
   }
 
+  setSkip(skip: boolean | number) {
+    this.disableLoading(skip);
+  }
+
   setLoadingOptions(loading: Object): this {
     this.loadingOptions = loading;
     return this;
