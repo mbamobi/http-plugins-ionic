@@ -30,7 +30,7 @@ export class Request {
     // default options
     let pluginsOptions = {
       '*': {
-        'allow': false,
+        'skip': true,
         'throwsException': false
       }
     };
