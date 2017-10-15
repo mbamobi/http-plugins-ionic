@@ -22,11 +22,7 @@ export class Request {
 
   @ContentChild(StateContent) content: any;
 
-  constructor(
-    private http: Http
-  ) {}
-
-  ngOnInit() {
+  get _requestOptions(){
     // default options
     let pluginsOptions = {
       '*': {
@@ -34,11 +30,20 @@ export class Request {
         'throwsException': false
       }
     };
-    this.requestOptions = Object.assign(
+    let requestOptions = Object.assign(
       {},
       { pluginsOptions, retry: true },
       this.options
     );
+
+    return requestOptions;
+  }
+
+  constructor(
+    private http: Http
+  ) {}
+
+  ngOnInit() {
 
     if (this.requestOnInit) {
       this.request();
@@ -63,7 +68,7 @@ export class Request {
     this.http.request(
       this.url,
       this.params,
-      this.requestOptions,
+      this._requestOptions,
       this.options
     ).subscribe((result: any) => {
       this.dismissLoading();
