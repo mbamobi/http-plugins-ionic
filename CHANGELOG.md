@@ -1,3 +1,18 @@
+<a name="3.0.4"></a>
+## [3.0.4](https://github.com/mbamobi/http-plugins-ionic/compare/v3.0.2...v3.0.4) (2017-10-15)
+
+
+### Bug Fixes
+
+* **request:** default request options sumindo apos repetidas requisicoes ([8a0f5fa](https://github.com/mbamobi/http-plugins-ionic/commit/8a0f5fa))
+
+
+### Features
+
+* **loading:** add option to set skip option ([32caf6a](https://github.com/mbamobi/http-plugins-ionic/commit/32caf6a))
+
+
+
 <a name="3.0.3"></a>
 ## [3.0.3](https://github.com/mbamobi/http-plugins-ionic/compare/v3.0.2...v3.0.3) (2017-10-10)
 
