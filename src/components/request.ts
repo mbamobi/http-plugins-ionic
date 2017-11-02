@@ -13,6 +13,7 @@ export class Request {
   @Input() requestOnInit: boolean = true;
 
   @Output() loaded = new EventEmitter();
+  @Output() onError = new EventEmitter();
 
   @ContentChild(StateLoading) loading: any;
 
@@ -87,6 +88,8 @@ export class Request {
       }
     }, (error) => {
       this.dismissLoading();
+
+      this.onError.emit(error);
 
       if (this.error) {
 
