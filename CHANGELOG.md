@@ -1,6 +1,10 @@
+<a name="3.0.5"></a>
+## [3.0.5](https://github.com/mbamobi/http-plugins-ionic/compare/v3.0.2...v3.0.5) (2017-11-02)
+
+* **request:** adding onError event ([e5acaa9](https://github.com/mbamobi/http-plugins-ionic/commit/e5acaa9))
+
 <a name="3.0.4"></a>
 ## [3.0.4](https://github.com/mbamobi/http-plugins-ionic/compare/v3.0.2...v3.0.4) (2017-10-15)
-
 
 ### Bug Fixes
 
