@@ -23,7 +23,7 @@ export class Request {
 
   @ContentChild(StateContent) content: any;
 
-  get _requestOptions(){
+  get _requestOptions() {
     // default options
     let pluginsOptions = {
       '*': {
