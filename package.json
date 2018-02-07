@@ -1,6 +1,6 @@
 {
   "name": "@mbamobi/http-plugins-ionic",
-  "version": "3.0.6",
+  "version": "3.1.0",
   "description": "Plugins HTTP additionals to projects ionic",
   "main": "dist/umd/index.js",
   "typings": "dist/esm/index.d.ts",
@@ -23,7 +23,7 @@
     "nightly": "npm run build:qa && node ./scripts/publish-nightly",
     "prepush": "npm run lint",
     "package:json": "node ./scripts/package-publish",
-    "publishPackage": "npm run build:qa && npm run changelog && npm run package:json --prepare && npm publish --access public && npm run package:json --restore",
+    "publishPackage": "npm run build:qa && npm run package:json --prepare && npm publish --access public && npm run package:json --restore",
     "test": "npm run clean && npm run build:test && npm run jasmine"
   },
   "files": [

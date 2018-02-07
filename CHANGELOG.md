@@ -1,11 +1,18 @@
-<a name="3.0.6"></a>
-## [3.0.6](https://github.com/mbamobi/http-plugins-ionic/compare/v3.0.5...v3.0.6) (2017-12-04)
+<a name="3.1.0"></a>
+# [3.1.0](https://github.com/mbamobi/http-plugins-ionic/compare/v3.0.6...v3.1.0) (2018-02-07)
 
 Suporte Angular 5.
 
 ### Features
 
 * update angular 5 ([208abd4](https://github.com/mbamobi/http-plugins-ionic/commit/208abd4))
+
+### Bug Fixes
+
+* **loading-plugin:** not dismiss loading if allow is false ([b25338d](https://github.com/mbamobi/http-plugins-ionic/commit/b25338d))
+
+<a name="3.0.6"></a>
+# Erro de publicação, não utilizar.
 
 <a name="3.0.5"></a>
 ## [3.0.5](https://github.com/mbamobi/http-plugins-ionic/compare/v3.0.2...v3.0.5) (2017-11-02)
