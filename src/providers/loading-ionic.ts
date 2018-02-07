@@ -60,13 +60,13 @@ export class LoadingIonicPlugin extends PluginBase implements PreRequestPlugin, 
   }
 
   postRequest() {
-    if (this.skippedCount === null) {
+    if (this.allow && this.skippedCount === null) {
       this.dismiss();
     }
   }
 
   postRequestError() {
-    this.dismiss();
+    this.allow && this.dismiss();
   }
 
   disableLoading(skip?: boolean | number): this {
